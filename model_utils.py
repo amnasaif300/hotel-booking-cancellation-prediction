@@ -7,7 +7,7 @@ from pathlib import Path
 import joblib
 import pandas as pd
 
-ROOT = Path(__file__).resolve().parent.parent
+ROOT = Path(__file__).resolve().parent
 MODEL_PATH = ROOT / "models" / "hotel_cancellation_model.joblib"
 META_PATH = ROOT / "models" / "model_metadata.json"
 
