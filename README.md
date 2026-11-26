@@ -80,10 +80,6 @@ The deployed GitHub repository uses a flat layout with `streamlit_app.py`, `mode
 If the app shows "The model could not be loaded", first check the model file paths and then check whether the scikit-learn version differs from the one the model was saved with. Re-run `python src/train_model.py` in an environment with the versions in `requirements.txt`,
 commit the new files in `models/`, and push.
 
-### Uploading to GitHub without the command line
-Create a new public repository, click **Add file → Upload files**, drag in the *contents* of this folder
-(keep the folder structure), and commit. Files up to 25 MB can be uploaded in the browser; all files here are smaller.
-
 ## Data
 Hotel booking demand dataset (City Hotel and Resort Hotel, Portugal, 2015-2017): Antonio, N., de Almeida, A.
 and Nunes, L. (2019), *Hotel booking demand datasets*, Data in Brief, 22, 41-49.
