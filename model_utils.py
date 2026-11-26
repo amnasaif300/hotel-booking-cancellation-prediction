@@ -8,8 +8,8 @@ import joblib
 import pandas as pd
 
 ROOT = Path(__file__).resolve().parent
-MODEL_PATH = ROOT / "models" / "hotel_cancellation_model.joblib"
-META_PATH = ROOT / "models" / "model_metadata.json"
+MODEL_PATH = ROOT / "hotel_cancellation_model.joblib"
+META_PATH = ROOT / "model_metadata.json
 
 MONTHS = ["January", "February", "March", "April", "May", "June", "July",
           "August", "September", "October", "November", "December"]
